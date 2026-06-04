@@ -647,7 +647,8 @@ section:nth-child(5) { animation-delay: 0.5s; }
   .centro { grid-template-columns: 18px 1fr; }
   .centro-sk { display: none; }
   .enc { grid-template-columns: 20px 90px 1fr; }
-  .enc-titulo { display: block; max-width: 90px; word-break: break-word; }
+  .enc-titulo { display: grid; grid-template-columns: 1fr; gap: 0; }
+  .enc-titulo-centro { display: block; }
   .enc-titulo-numero { display: block; text-align: left; white-space: normal; }
 }
 
