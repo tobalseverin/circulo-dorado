@@ -531,7 +531,7 @@ section:nth-child(5) { animation-delay: 0.5s; }
 
   /* CÍRCULO FONDO MOBILE */
   .cover-bg {
-    background-position: 55% 45% !important;
+    background-position: 55% 35% !important;
   }
 
   /* FACILITADORES MOBILE */
