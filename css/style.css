@@ -43,9 +43,9 @@ html, body {
 .cover-bg {
   position: absolute;
   inset: 0;
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
-  background-position: 47% 55%; /* círculo: -5% (bajar), -3% (izquierda) */
+  background-position: 50% 50%;
   opacity: 0.50;
   z-index: 0;
 }
@@ -531,7 +531,7 @@ section:nth-child(5) { animation-delay: 0.5s; }
 
   /* CÍRCULO FONDO MOBILE */
   .cover-bg {
-    background-position: 55% 35% !important;
+    background-position: 50% 32% !important;
   }
 
   /* FACILITADORES MOBILE */
