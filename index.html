@@ -258,6 +258,30 @@
       scrollTopBtn.classList.remove('visible');
     }
   });
+
+  // ACTIVE NAV LINK SEGÚN SECCIÓN VISIBLE
+  const sections = document.querySelectorAll('section[id]');
+  const navLinks = document.querySelectorAll('.cover-nav a[href^="#"]');
+
+  const sectionObserver = new IntersectionObserver(function(entries) {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        // Remover active de todos
+        navLinks.forEach(link => link.classList.remove('active'));
+
+        // Agregar active al link correspondiente
+        const activeLink = document.querySelector(`.cover-nav a[href="#${entry.target.id}"]`);
+        if (activeLink) {
+          activeLink.classList.add('active');
+        }
+      }
+    });
+  }, {
+    threshold: 0.3,
+    rootMargin: '-80px 0px -50% 0px'
+  });
+
+  sections.forEach(section => sectionObserver.observe(section));
 </script>
 </body>
 </html>
