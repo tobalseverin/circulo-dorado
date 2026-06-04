@@ -650,6 +650,15 @@ section:nth-child(5) { animation-delay: 0.5s; }
   .enc-titulo { display: grid; grid-template-columns: 1fr; gap: 0; }
   .enc-titulo-centro { display: block; }
   .enc-titulo-numero { display: block; text-align: left; white-space: normal; }
+
+  /* MODAL MOBILE */
+  .modal-content {
+    padding: 0.75rem 1rem;
+  }
+  .modal-close {
+    right: 12px;
+    top: 10px;
+  }
 }
 
 @media print {
