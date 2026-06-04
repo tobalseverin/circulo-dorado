@@ -638,6 +638,7 @@ section:nth-child(5) { animation-delay: 0.5s; }
   .centro { grid-template-columns: 18px 1fr; }
   .centro-sk { display: none; }
   .enc { grid-template-columns: 20px 90px 1fr; }
+  .enc-titulo { max-width: 90px; word-break: break-word; }
 }
 
 @media print {
