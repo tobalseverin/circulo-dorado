@@ -62,17 +62,22 @@ html, body {
   z-index: 0;
 }
 
-/* Revelación circular: círculo transparente que crece desde el centro */
+/* Revelación circular: degrade radial que se abre desde el centro */
+@property --reveal {
+  syntax: '<percentage>';
+  initial-value: -40%;
+  inherits: false;
+}
+
 .cover::after {
   content: '';
   position: absolute;
-  left: 50%;
-  top: 50%;
-  width: 2px;
-  height: 2px;
-  border-radius: 50%;
-  transform: translate(-50%, -50%);
-  box-shadow: 0 0 60vmax 250vmax rgba(253, 252, 249, 0.92);
+  inset: 0;
+  background: radial-gradient(
+    circle at center,
+    transparent calc(var(--reveal) - 45%),
+    rgba(253, 252, 249, 0.92) calc(var(--reveal) + 45%)
+  );
   z-index: 1;
   pointer-events: none;
   animation: irisReveal 3.5s ease-in-out forwards;
@@ -503,14 +508,12 @@ em {
 
 @keyframes irisReveal {
   from {
-    width: 2px;
-    height: 2px;
-    box-shadow: 0 0 60vmax 250vmax rgba(253, 252, 249, 0.92);
+    --reveal: -40%;
+    opacity: 1;
   }
   to {
-    width: 300vmax;
-    height: 300vmax;
-    box-shadow: 0 0 60vmax 250vmax rgba(253, 252, 249, 0);
+    --reveal: 190%;
+    opacity: 0;
   }
 }
 
