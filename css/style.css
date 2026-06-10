@@ -4,13 +4,13 @@
 
 @font-face {
   font-family: 'Fondamento';
-  src: url('assets/fonts/Fondamento-Regular.ttf') format('truetype');
+  src: url('../assets/fonts/Fondamento-Regular.ttf') format('truetype');
   font-weight: 400;
 }
 
 @font-face {
   font-family: 'Fondamento';
-  src: url('assets/fonts/Fondamento-Italic.ttf') format('truetype');
+  src: url('../assets/fonts/Fondamento-Italic.ttf') format('truetype');
   font-weight: 400;
   font-style: italic;
 }
