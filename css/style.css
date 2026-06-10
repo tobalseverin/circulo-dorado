@@ -333,7 +333,7 @@ em {
 .etapa-nombre {
   font-size: clamp(17px, 2.1vw, 20px);
   font-weight: 400;
-  color: var(--ink);
+  color: var(--gold);
   writing-mode: vertical-rl;
   transform: rotate(180deg);
   justify-self: center;
@@ -357,7 +357,7 @@ em {
 }
 .centro-nombre {
   font-family: 'Cormorant Garamond', serif;
-  font-size: clamp(20px, 2.4vw, 24px); color: var(--ink); display: block; margin-bottom: 2px;
+  font-size: clamp(20px, 2.4vw, 24px); color: var(--gold); display: block; margin-bottom: 2px;
 }
 .centro-desc { font-size: clamp(16px, 1.8vw, 18px); color: var(--ink-soft); }
 .centro-sk { font-size: clamp(14px, 1.7vw, 17px); color: var(--ink-mute); white-space: nowrap; }
