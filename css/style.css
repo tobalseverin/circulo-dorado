@@ -307,8 +307,8 @@ p {
 p:last-child { margin-bottom: 0; }
 
 em {
-  font-family: 'Cormorant Garamond', serif;
-  font-size: clamp(18px, 2.3vw, 23px);
+  font-family: inherit;
+  font-size: inherit;
   font-style: italic;
   color: var(--ink);
 }
