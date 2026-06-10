@@ -58,7 +58,7 @@ html, body {
   background-repeat: no-repeat;
   background-position: 50% 55%;
   background-image: url('assets/bg_circulodorado-desktop.jpg');
-  opacity: 0.10;
+  opacity: 0.25;
   z-index: 0;
   animation: fadeIn 1.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) forwards;
 }
