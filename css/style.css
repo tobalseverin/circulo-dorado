@@ -72,10 +72,10 @@ html, body {
   height: 2px;
   border-radius: 50%;
   transform: translate(-50%, -50%);
-  box-shadow: 0 0 45vmax 250vmax var(--cream);
+  box-shadow: 0 0 60vmax 250vmax rgba(253, 252, 249, 0.92);
   z-index: 1;
   pointer-events: none;
-  animation: irisReveal 4.5s ease-in-out forwards;
+  animation: irisReveal 3.5s ease-in-out forwards;
 }
 
 /* Responsive image loading */
@@ -112,7 +112,7 @@ html, body {
   text-transform: uppercase;
   color: var(--ink);
   margin-bottom: 1.5rem;
-  animation: fadeInUp 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94) 4.4s forwards;
+  animation: fadeInUp 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94) 3.4s forwards;
   opacity: 0;
 }
 
@@ -124,7 +124,7 @@ html, body {
   color: var(--gold);
   letter-spacing: .04em;
   margin-bottom: 1.3rem;
-  animation: fadeInUp 1.2s cubic-bezier(0.25, 0.46, 0.45, 0.94) 3.8s forwards;
+  animation: fadeInUp 1.2s cubic-bezier(0.25, 0.46, 0.45, 0.94) 2.8s forwards;
   opacity: 0;
 }
 
@@ -133,7 +133,7 @@ html, body {
   height: 1px;
   background: var(--gold);
   margin-bottom: 1.3rem;
-  animation: fadeInUp 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94) 4.4s forwards;
+  animation: fadeInUp 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94) 3.4s forwards;
   opacity: 0;
 }
 
@@ -144,7 +144,7 @@ html, body {
   font-weight: 300;
   color: var(--ink-soft);
   margin-bottom: 1.8rem;
-  animation: fadeInUp 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94) 4.4s forwards;
+  animation: fadeInUp 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94) 3.4s forwards;
   opacity: 0;
 }
 
@@ -505,12 +505,12 @@ em {
   from {
     width: 2px;
     height: 2px;
-    box-shadow: 0 0 45vmax 250vmax var(--cream);
+    box-shadow: 0 0 60vmax 250vmax rgba(253, 252, 249, 0.92);
   }
   to {
     width: 300vmax;
     height: 300vmax;
-    box-shadow: 0 0 45vmax 250vmax rgba(253, 252, 249, 0);
+    box-shadow: 0 0 60vmax 250vmax rgba(253, 252, 249, 0);
   }
 }
 
