@@ -373,7 +373,7 @@ em {
 .fac-content { flex: 1; }
 .fac-nombre {
   font-family: 'Cormorant Garamond', serif;
-  font-size: clamp(21px, 2.5vw, 30px); color: var(--ink); margin-bottom: .8rem;
+  font-size: clamp(21px, 2.5vw, 30px); color: var(--gold); margin-bottom: .8rem;
   margin-top: 0;
 }
 .fac-bio { font-size: clamp(16px, 1.8vw, 21px); color: var(--ink-soft); line-height: 1.78; margin: 0; }
@@ -750,9 +750,6 @@ section:nth-child(5) { animation-delay: 0.5s; }
   .centro-sk { display: none; }
   .chakra-icon { width: 22px; height: 22px; }
   .enc { grid-template-columns: 20px 90px 1fr; }
-  .enc-titulo { display: grid; grid-template-columns: 1fr; gap: 0; }
-  .enc-titulo-centro { display: block; }
-  .enc-titulo-numero { display: block; text-align: left; white-space: normal; }
 
   /* MODAL MOBILE */
   .modal-content {
