@@ -58,9 +58,17 @@ html, body {
   background-repeat: no-repeat;
   background-position: 50% 55%;
   background-image: url('../assets/bg_circulodorado-desktop.jpg');
-  opacity: 0;
+  opacity: 0.45;
   z-index: 0;
-  animation: zoomInCenter 2s cubic-bezier(0.25, 0.46, 0.45, 0.94) forwards;
+}
+
+.cover-bg::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(circle at center, transparent 0%, rgba(255, 255, 255, 0.95) 100%);
+  animation: revealBackground 2.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) forwards;
+  z-index: 1;
 }
 
 /* Responsive image loading */
@@ -97,7 +105,7 @@ html, body {
   text-transform: uppercase;
   color: var(--ink);
   margin-bottom: 1.5rem;
-  animation: fadeInUp 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94) 2s forwards;
+  animation: fadeInUp 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94) 2.8s forwards;
   opacity: 0;
 }
 
@@ -109,7 +117,7 @@ html, body {
   color: var(--gold);
   letter-spacing: .04em;
   margin-bottom: 1.3rem;
-  animation: fadeInUp 1s cubic-bezier(0.25, 0.46, 0.45, 0.94) 2.5s forwards;
+  animation: fadeInUp 1.2s cubic-bezier(0.25, 0.46, 0.45, 0.94) 2.5s forwards;
   opacity: 0;
 }
 
@@ -118,7 +126,7 @@ html, body {
   height: 1px;
   background: var(--gold);
   margin-bottom: 1.3rem;
-  animation: fadeInUp 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94) 3s forwards;
+  animation: fadeInUp 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94) 2.8s forwards;
   opacity: 0;
 }
 
@@ -129,7 +137,7 @@ html, body {
   font-weight: 300;
   color: var(--ink-soft);
   margin-bottom: 1.8rem;
-  animation: fadeInUp 1s cubic-bezier(0.25, 0.46, 0.45, 0.94) 3.5s forwards;
+  animation: fadeInUp 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94) 2.8s forwards;
   opacity: 0;
 }
 
@@ -486,14 +494,14 @@ em {
   }
 }
 
-@keyframes zoomInCenter {
+@keyframes revealBackground {
   from {
-    opacity: 0;
-    transform: scale(0.8);
+    background: radial-gradient(circle at center, rgba(255, 255, 255, 0.95) 0%, rgba(255, 255, 255, 0.95) 100%);
+    opacity: 1;
   }
   to {
-    opacity: 0.45;
-    transform: scale(1);
+    background: radial-gradient(circle at center, transparent 0%, transparent 100%);
+    opacity: 0;
   }
 }
 
