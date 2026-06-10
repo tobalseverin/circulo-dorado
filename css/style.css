@@ -586,6 +586,16 @@ section:nth-child(5) { animation-delay: 0.5s; }
   text-transform: uppercase; color: var(--ink-mute);
 }
 
+.footer-facs a {
+  color: var(--gold);
+  text-decoration: none;
+  transition: opacity 0.2s;
+}
+
+.footer-facs a:hover {
+  opacity: 0.8;
+}
+
 .footer-credits {
   font-size: clamp(11px, 1.3vw, 13px);
   color: var(--ink-mute);
