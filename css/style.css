@@ -62,7 +62,7 @@ html, body {
     url('assets/bg_circulodorado-tablet.jpg') 2x,
     url('assets/bg_circulodorado-desktop.jpg') 3x
   );
-  opacity: 0.45;
+  opacity: 0.20;
   z-index: 0;
   animation: fadeIn 1.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) forwards;
 }
