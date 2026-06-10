@@ -1,17 +1,27 @@
 # Chakras — SVG vectoriales
 
-Símbolos de los 7 chakras dibujados a partir de la referencia `assets/chakars.png`,
-en la paleta terrosa de Círculo Dorado.
+Dos sets de símbolos de los 7 chakras, en la paleta terrosa de Círculo Dorado.
 
-## Archivos
+## Sets
 
-Cada chakra viene en dos versiones:
+### `line/` — chakras-line
+Dibujo geométrico de línea (trazo fino, formas que no se tocan — apto para
+usar con opacidad sin que se generen manchas de superposición).
+Cada chakra en dos versiones:
 
 - `0N-nombre.svg` — con su tono terroso fijo
 - `0N-nombre-currentcolor.svg` — usa `currentColor`: hereda el color del CSS
-  donde se inserte (ideal para cambiar de color sin editar el archivo)
 
-| # | Chakra | Tono terroso |
+### `artsy/` — chakras-artsy
+Diseño orgánico ondulado (extraído de `assets/chakras.svg`), recoloreado
+a la paleta terrosa. Formas rellenas, un solo color por símbolo.
+
+- `0N-nombre.svg` — color terroso pleno
+- `0N-nombre-soft.svg` — con opacidad 0.4 baked-in (para fondos sutiles)
+
+## Paleta terrosa
+
+| # | Chakra | Tono |
 |---|---|---|
 | 01 | Muladhara | `#9C5542` terracota |
 | 02 | Svadhisthana | `#BA7A3F` naranja tierra |
@@ -23,11 +33,11 @@ Cada chakra viene en dos versiones:
 
 ## Uso
 
-- **Web:** `<img src="assets/chakras/01-muladhara.svg" width="40">` o inline para animar
+- **Web:** `<img src="assets/chakras/artsy/01-muladhara.svg" width="40">` o inline para animar
 - **Illustrator / Figma:** abrir o arrastrar el archivo directamente
-- **Cambiar color (versión currentcolor):** `color: #A8821A;` en el elemento contenedor
-- **Cambiar grosor de línea:** editar `stroke-width` (1 = fino; el viewBox es 40×40)
-- **Animación:** cada pétalo y figura es un `<path>` separado — se pueden animar
-  con `stroke-dashoffset` (efecto "se dibuja"), rotación, opacidad, etc.
+- **Cambiar color (line currentcolor):** `color: #A8821A;` en el contenedor
+- **Animación (line):** cada pétalo es un `<path>` separado — stroke-dashoffset
+  (efecto "se dibuja"), rotación, opacidad, etc.
 
+El sitio usa actualmente el set **artsy** (íconos del recorrido y fondos del programa).
 Escalan a cualquier tamaño sin perder calidad (vector puro).
