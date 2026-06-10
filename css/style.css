@@ -386,7 +386,16 @@ em {
 .precio-row:last-child { border-bottom: none; }
 .precio-tipo { color: var(--ink-soft); }
 .precio-val { color: var(--ink); }
-.precio-tag { font-size: clamp(13px, 1.6vw, 14px); color: var(--gold); margin-left: 8px; }
+.precio-tag {
+  font-size: clamp(11px, 1.4vw, 13px);
+  background: var(--gold);
+  color: var(--cream);
+  padding: 4px 10px;
+  border-radius: 20px;
+  display: inline-block;
+  margin-left: 8px;
+  font-weight: 500;
+}
 
 /* ── CTA BUTTON ── */
 .cta-button {
