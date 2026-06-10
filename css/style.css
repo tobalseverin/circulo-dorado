@@ -2,6 +2,19 @@
    CÍRCULO DORADO — style.css
    ══════════════════════════════════════ */
 
+@font-face {
+  font-family: 'Fondamento';
+  src: url('assets/fonts/Fondamento-Regular.ttf') format('truetype');
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Fondamento';
+  src: url('assets/fonts/Fondamento-Italic.ttf') format('truetype');
+  font-weight: 400;
+  font-style: italic;
+}
+
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
 :root {
@@ -76,9 +89,9 @@ html, body {
 }
 
 .cover-title {
-  font-family: 'Cormorant Garamond', serif;
+  font-family: 'Fondamento', serif;
   font-size: clamp(64px, 9vw, 92px);
-  font-weight: 500;
+  font-weight: 400;
   line-height: 1.0;
   color: var(--gold);
   letter-spacing: .04em;
