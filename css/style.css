@@ -425,12 +425,12 @@ em {
 
 /* Programa */
 .enc {
-  display: grid; grid-template-columns: 24px 112px 1fr;
+  display: grid; grid-template-columns: 110px 1fr;
   gap: 8px; padding: 8px 0; border-bottom: .5px solid var(--line);
   align-items: baseline;
 }
 .enc:last-child { border-bottom: none; }
-.enc-n { font-size: clamp(11px, 1.4vw, 15px); color: var(--gold); font-weight: 500; }
+.enc-n { font-size: clamp(11px, 1.4vw, 15px); color: var(--gold); font-weight: 500; white-space: nowrap; }
 .enc-fecha { font-size: clamp(14px, 1.8vw, 20px); color: var(--ink-mute); }
 .enc-titulo {
   font-size: clamp(16px, 1.8vw, 21px);
@@ -808,7 +808,7 @@ section:nth-child(5) { animation-delay: 0.5s; }
   .centro { grid-template-columns: 38px 1fr; }
   .centro-sk { grid-column: 2; justify-self: start; margin-top: 8px; }
   .chakra-icon { width: 32px; height: 32px; }
-  .enc { grid-template-columns: 20px 90px 1fr; }
+  .enc { grid-template-columns: 84px 1fr; }
 
 
   /* Fondos de chakra más suaves en mobile */
