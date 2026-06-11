@@ -442,15 +442,25 @@ em {
 }
 .enc-titulo-centro { flex: 1; }
 .enc-titulo-numero {
-  font-size: clamp(9px, 0.9vw, 11px);
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  font-size: clamp(10px, 1vw, 12px);
   font-weight: 500;
   letter-spacing: .06em;
   text-transform: uppercase;
   color: var(--cream);
   background: var(--ink-mute);
-  padding: 4px 12px;
+  padding: 5px 14px;
   border-radius: 20px;
   white-space: nowrap;
+}
+
+.badge-chakra {
+  width: 17px;
+  height: 17px;
+  object-fit: contain;
+  display: block;
 }
 .enc.ck-1 .enc-titulo-numero { background: #9C5542; }
 .enc.ck-2 .enc-titulo-numero { background: #BA7A3F; }
