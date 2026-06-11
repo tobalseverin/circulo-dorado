@@ -356,7 +356,27 @@ em {
   font-size: clamp(20px, 2.4vw, 28px); color: var(--gold); display: block; margin-bottom: 2px;
 }
 .centro-desc { font-size: clamp(16px, 1.8vw, 21px); color: var(--ink-soft); }
-.centro-sk { font-size: clamp(14px, 1.7vw, 19px); color: var(--ink-mute); white-space: nowrap; }
+.centro-sk {
+  font-size: clamp(10px, 1vw, 12px);
+  font-weight: 500;
+  letter-spacing: .12em;
+  text-transform: uppercase;
+  color: var(--cream);
+  background: var(--ink-mute);
+  padding: 4px 12px;
+  border-radius: 20px;
+  white-space: nowrap;
+  justify-self: end;
+}
+
+/* Color del badge según el chakra (orden de los centros 1-7) */
+#recorrido div.centro:nth-of-type(1) .centro-sk { background: #9C5542; }
+#recorrido div.centro:nth-of-type(2) .centro-sk { background: #BA7A3F; }
+#recorrido div.centro:nth-of-type(3) .centro-sk { background: #B5953B; }
+#recorrido div.centro:nth-of-type(4) .centro-sk { background: #7C8A57; }
+#recorrido div.centro:nth-of-type(5) .centro-sk { background: #5F808C; }
+#recorrido div.centro:nth-of-type(6) .centro-sk { background: #6A6386; }
+#recorrido div.centro:nth-of-type(7) .centro-sk { background: #82627E; }
 
 /* Facilitadores */
 .fac {
