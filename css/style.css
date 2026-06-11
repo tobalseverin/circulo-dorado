@@ -340,14 +340,14 @@ em {
 /* Centros */
 .centro {
   padding: 9px 0; border-bottom: .5px solid var(--line);
-  display: grid; grid-template-columns: 30px 1fr auto; gap: 12px;
+  display: grid; grid-template-columns: 38px 1fr auto; gap: 12px;
   align-items: center;
 }
 .centro:last-child { border-bottom: none; }
 .centro-n { display: flex; align-items: center; justify-content: center; }
 .chakra-icon {
-  width: 26px;
-  height: 26px;
+  width: 34px;
+  height: 34px;
   object-fit: contain;
   opacity: 0.8;
 }
@@ -754,7 +754,7 @@ section:nth-child(5) { animation-delay: 0.5s; }
   .etapa { grid-template-columns: 90px 1fr; }
   .centro { grid-template-columns: 26px 1fr; }
   .centro-sk { display: none; }
-  .chakra-icon { width: 22px; height: 22px; }
+  .chakra-icon { width: 27px; height: 27px; }
   .enc { grid-template-columns: 20px 90px 1fr; }
 
   /* MODAL MOBILE */
@@ -775,8 +775,8 @@ section:nth-child(5) { animation-delay: 0.5s; }
 /* ── FONDOS DE CHAKRA EN EL PROGRAMA ── */
 .enc.enc-chakra {
   background-repeat: no-repeat;
-  background-position: center;
-  background-size: auto 200%;
+  background-position: right center;
+  background-size: auto 360%;
 }
 .enc.chakra-bg-1 { background-image: url('../assets/chakras/artsy/01-muladhara-soft.svg'); }
 .enc.chakra-bg-2 { background-image: url('../assets/chakras/artsy/02-svadhisthana-soft.svg'); }
