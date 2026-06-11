@@ -706,6 +706,26 @@ section:nth-child(5) { animation-delay: 0.5s; }
   opacity: 0.8;
 }
 
+.footer-credits-lines {
+  font-size: 11px;
+  font-weight: 400;
+  letter-spacing: .12em;
+  text-transform: uppercase;
+  color: var(--ink-mute);
+  line-height: 1.9;
+  margin-top: .9rem;
+}
+
+.footer-credits-lines a {
+  color: var(--gold);
+  text-decoration: none;
+  transition: opacity 0.2s;
+}
+
+.footer-credits-lines a:hover {
+  opacity: 0.8;
+}
+
 .footer-credits {
   font-size: clamp(11px, 1.3vw, 15px);
   color: var(--ink-mute);
