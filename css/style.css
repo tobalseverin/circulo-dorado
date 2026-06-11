@@ -821,8 +821,9 @@ section:nth-child(5) { animation-delay: 0.5s; }
 
   /* CITA FINAL MOBILE */
   .footer-quote {
-    font-size: clamp(26px, 7vw, 32px);
-    margin-bottom: 1.2rem;
+    font-size: clamp(21px, 5.8vw, 25px);
+    line-height: 1.5;
+    margin-bottom: 2.2rem;
   }
   .footer-facs {
     font-size: 12px;
