@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg style="opacity:.2"
+<svg style="opacity:.3"
    viewBox="0.00 -1.44 149.72 149.72"
    version="1.1"
    id="svg4"
    width="149.72"
    height="149.72"
    xmlns="http://www.w3.org/2000/svg"
-   xmlns:svg="http://www.w3.org/2000/svg"><defs><filter id="thin" x="-20%" y="-20%" width="140%" height="140%"><feMorphology operator="erode" radius="0.9"/></filter></defs>
+   xmlns:svg="http://www.w3.org/2000/svg"><defs><filter id="thin" x="-20%" y="-20%" width="140%" height="140%"><feMorphology operator="erode" radius="0.7"/></filter></defs>
   <defs
      id="defs4" />
   <g filter="url(#thin)"

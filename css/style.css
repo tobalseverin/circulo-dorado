@@ -300,6 +300,15 @@ section {
 
 p.lead em { color: inherit; }
 
+p.lead-fechas {
+  font-size: clamp(13px, 1.2vw, 16px);
+  font-weight: 500;
+  letter-spacing: .14em;
+  text-transform: uppercase;
+  color: var(--ink-mute);
+  margin-bottom: 1.4rem;
+}
+
 p.lead {
   font-family: 'Cormorant Garamond', serif;
   font-size: clamp(24px, 3vw, 36px);
@@ -349,7 +358,7 @@ em {
 
 /* Centros */
 .centro {
-  padding: 9px 0; border-bottom: .5px solid var(--line);
+  padding: 18px 0; border-bottom: .5px solid var(--line);
   display: grid; grid-template-columns: 46px 1fr auto; gap: 12px;
   align-items: center;
 }
@@ -465,7 +474,9 @@ em {
 .precio-tipo { color: var(--ink-soft); }
 .precio-val { color: var(--ink); }
 .precio-tag {
-  font-size: clamp(11px, 1.4vw, 15px);
+  font-size: clamp(9px, 0.9vw, 11px);
+  text-transform: uppercase;
+  letter-spacing: .06em;
   background: var(--gold);
   color: var(--cream);
   padding: 4px 10px;
