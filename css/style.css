@@ -326,7 +326,7 @@ em {
 /* Etapas */
 .etapa {
   padding: 10px 0; border-bottom: .5px solid var(--line);
-  display: grid; grid-template-columns: 120px 1fr; gap: 14px;
+  display: grid; grid-template-columns: max-content 1fr; gap: 24px;
 }
 .etapa:last-child { border-bottom: none; }
 .etapa-nombre {
@@ -340,14 +340,14 @@ em {
 /* Centros */
 .centro {
   padding: 9px 0; border-bottom: .5px solid var(--line);
-  display: grid; grid-template-columns: 38px 1fr auto; gap: 12px;
+  display: grid; grid-template-columns: 46px 1fr auto; gap: 12px;
   align-items: center;
 }
 .centro:last-child { border-bottom: none; }
 .centro-n { display: flex; align-items: center; justify-content: center; }
 .chakra-icon {
-  width: 34px;
-  height: 34px;
+  width: 41px;
+  height: 41px;
   object-fit: contain;
   opacity: 0.8;
 }
@@ -771,10 +771,10 @@ section:nth-child(5) { animation-delay: 0.5s; }
 
 @media (max-width: 520px) {
   .cover-nav a { font-size: 9.5px; padding: 13px 10px; letter-spacing: .09em; }
-  .etapa { grid-template-columns: 90px 1fr; }
+  .etapa { gap: 16px; }
   .centro { grid-template-columns: 26px 1fr; }
   .centro-sk { display: none; }
-  .chakra-icon { width: 27px; height: 27px; }
+  .chakra-icon { width: 32px; height: 32px; }
   .enc { grid-template-columns: 20px 90px 1fr; }
 
   /* MODAL MOBILE */
