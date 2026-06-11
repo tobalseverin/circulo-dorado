@@ -839,7 +839,7 @@ section:nth-child(5) { animation-delay: 0.5s; }
 .enc.enc-chakra {
   background-repeat: no-repeat;
   background-position: right center;
-  background-size: auto 360%;
+  background-size: auto 200%;
 }
 .enc.chakra-bg-1 { background-image: url('../assets/chakras/artsy/01-muladhara-soft.svg'); }
 .enc.chakra-bg-2 { background-image: url('../assets/chakras/artsy/02-svadhisthana-soft.svg'); }
