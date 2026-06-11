@@ -758,11 +758,6 @@ section:nth-child(5) { animation-delay: 0.5s; }
     font-size: 20px;
   }
 
-  /* CONDICIONES - OCULTAR NÚMEROS */
-  .condition-num {
-    display: none;
-  }
-
   /* CÍRCULO FONDO MOBILE */
   .cover-bg {
     background-position: 50% 55%;
@@ -810,10 +805,20 @@ section:nth-child(5) { animation-delay: 0.5s; }
 @media (max-width: 520px) {
   .cover-nav a { font-size: 9.5px; padding: 13px 10px; letter-spacing: .09em; }
   .etapa { grid-template-columns: 112px 1fr; gap: 16px; }
-  .centro { grid-template-columns: 26px 1fr; }
-  .centro-sk { display: none; }
+  .centro { grid-template-columns: 38px 1fr; }
+  .centro-sk { grid-column: 2; justify-self: start; margin-top: 8px; }
   .chakra-icon { width: 32px; height: 32px; }
   .enc { grid-template-columns: 20px 90px 1fr; }
+
+
+  /* Fondos de chakra más suaves en mobile */
+  .enc.chakra-bg-1 { background-image: linear-gradient(rgba(253,252,249,0.6), rgba(253,252,249,0.6)), url('../assets/chakras/artsy/01-muladhara-soft.svg'); }
+  .enc.chakra-bg-2 { background-image: linear-gradient(rgba(253,252,249,0.6), rgba(253,252,249,0.6)), url('../assets/chakras/artsy/02-svadhisthana-soft.svg'); }
+  .enc.chakra-bg-3 { background-image: linear-gradient(rgba(253,252,249,0.6), rgba(253,252,249,0.6)), url('../assets/chakras/artsy/03-manipura-soft.svg'); }
+  .enc.chakra-bg-4 { background-image: linear-gradient(rgba(253,252,249,0.6), rgba(253,252,249,0.6)), url('../assets/chakras/artsy/04-anahata-soft.svg'); }
+  .enc.chakra-bg-5 { background-image: linear-gradient(rgba(253,252,249,0.6), rgba(253,252,249,0.6)), url('../assets/chakras/artsy/05-vishuddha-soft.svg'); }
+  .enc.chakra-bg-6 { background-image: linear-gradient(rgba(253,252,249,0.6), rgba(253,252,249,0.6)), url('../assets/chakras/artsy/06-ajna-soft.svg'); }
+  .enc.chakra-bg-7 { background-image: linear-gradient(rgba(253,252,249,0.6), rgba(253,252,249,0.6)), url('../assets/chakras/artsy/07-sahasrara-soft.svg'); }
 
   /* MODAL MOBILE */
   .modal-content {
