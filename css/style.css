@@ -798,10 +798,10 @@ section:nth-child(5) { animation-delay: 0.5s; }
   background-position: right center;
   background-size: auto 360%;
 }
-.enc.chakra-bg-1 { background-image: url('../assets/chakras/line/01-muladhara-bg.svg'); }
-.enc.chakra-bg-2 { background-image: url('../assets/chakras/line/02-svadhisthana-bg.svg'); }
-.enc.chakra-bg-3 { background-image: url('../assets/chakras/line/03-manipura-bg.svg'); }
-.enc.chakra-bg-4 { background-image: url('../assets/chakras/line/04-anahata-bg.svg'); }
-.enc.chakra-bg-5 { background-image: url('../assets/chakras/line/05-vishuddha-bg.svg'); }
-.enc.chakra-bg-6 { background-image: url('../assets/chakras/line/06-ajna-bg.svg'); }
-.enc.chakra-bg-7 { background-image: url('../assets/chakras/line/07-sahasrara-bg.svg'); }
+.enc.chakra-bg-1 { background-image: url('../assets/chakras/artsy/01-muladhara-soft.svg'); }
+.enc.chakra-bg-2 { background-image: url('../assets/chakras/artsy/02-svadhisthana-soft.svg'); }
+.enc.chakra-bg-3 { background-image: url('../assets/chakras/artsy/03-manipura-soft.svg'); }
+.enc.chakra-bg-4 { background-image: url('../assets/chakras/artsy/04-anahata-soft.svg'); }
+.enc.chakra-bg-5 { background-image: url('../assets/chakras/artsy/05-vishuddha-soft.svg'); }
+.enc.chakra-bg-6 { background-image: url('../assets/chakras/artsy/06-ajna-soft.svg'); }
+.enc.chakra-bg-7 { background-image: url('../assets/chakras/artsy/07-sahasrara-soft.svg'); }
