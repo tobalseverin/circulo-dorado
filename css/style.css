@@ -20,13 +20,14 @@
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
 :root {
-  --gold:      #A8821A;
-  --gold-line: #c0a775;
-  --ink:       #1C1A17;
-  --ink-soft:  #3C3830;
-  --ink-mute:  #6E6860;
-  --cream:     #FDFCF9;
-  --line:      #DDD6CC;
+  --gold:       #A8821A;
+  --gold-dark:  #3a2c00;
+  --gold-line:  #c0a775;
+  --ink:        #1C1A17;
+  --ink-soft:   #3C3830;
+  --ink-mute:   #6E6860;
+  --cream:      #FDFCF9;
+  --line:       #DDD6CC;
 }
 
 html, body {
@@ -523,10 +524,10 @@ em {
 
 /* ── WHATSAPP LINK ── */
 .whatsapp-link {
-  color: var(--gold);
+  color: var(--gold-dark);
   text-decoration: none;
   font-size: clamp(14px, 1.7vw, 19px);
-  border-bottom: 1px solid var(--gold);
+  border-bottom: 1px solid var(--gold-dark);
   transition: all .3s;
   padding-bottom: 4px;
 }
@@ -699,7 +700,7 @@ section:nth-child(5) { animation-delay: 0.5s; }
 }
 
 .footer-facs a {
-  color: var(--gold);
+  color: var(--gold-dark);
   text-decoration: none;
   transition: opacity 0.2s;
 }
@@ -719,7 +720,7 @@ section:nth-child(5) { animation-delay: 0.5s; }
 }
 
 .footer-credits-lines a {
-  color: var(--gold);
+  color: var(--gold-dark);
   text-decoration: none;
   transition: opacity 0.2s;
 }
@@ -737,7 +738,7 @@ section:nth-child(5) { animation-delay: 0.5s; }
 }
 
 .footer-credits a {
-  color: var(--gold);
+  color: var(--gold-dark);
   text-decoration: none;
   transition: color .3s;
 }
