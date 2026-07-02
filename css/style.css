@@ -498,7 +498,7 @@ em {
 }
 .precio-row:last-child { border-bottom: none; }
 .precio-tipo { color: var(--ink-soft); }
-.precio-val { color: var(--ink); }
+.precio-val { color: var(--ink); text-align: right; display: block; }
 .precio-tag {
   font-size: clamp(9px, 0.9vw, 11px);
   text-transform: uppercase;
