@@ -316,7 +316,7 @@ p.lead em { color: inherit; }
 p.lead-fechas {
   font-size: clamp(13px, 1.2vw, 16px);
   font-weight: 500;
-  letter-spacing: .14em;
+  letter-spacing: .08em;
   text-transform: uppercase;
   color: var(--ink-mute);
   margin-bottom: 1.8rem;
