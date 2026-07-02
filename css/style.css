@@ -20,7 +20,7 @@
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
 :root {
-  --gold:       #6b530f;
+  --gold:       #8b7516;
   --gold-line:  #c0a775;
   --ink:        #1C1A17;
   --ink-soft:   #3C3830;
@@ -293,6 +293,8 @@ html, body {
 }
 
 section {
+  padding-top: 3.5rem;
+  padding-bottom: 3.5rem;
   margin-bottom: 4.5rem;
   scroll-margin-top: 120px;
 }
