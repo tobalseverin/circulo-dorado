@@ -324,7 +324,7 @@ p.lead-fechas {
 
 p.lead {
   font-family: 'Cormorant Garamond', serif;
-  font-size: clamp(31px, 3.9vw, 47px);
+  font-size: clamp(37px, 4.68vw, 56px);
   line-height: 1.4;
   color: var(--gold);
   margin-bottom: 1.2rem;
