@@ -217,6 +217,15 @@ html, body {
   border-bottom: 3px solid var(--gold);
   padding-bottom: 15px;
 }
+.nav-inscripcion {
+  background: var(--gold) !important;
+  color: var(--cream) !important;
+  border-right: none !important;
+}
+.nav-inscripcion:hover {
+  background: #5a4408 !important;
+  color: var(--cream) !important;
+}
 
 .scroll-top {
   position: absolute;
