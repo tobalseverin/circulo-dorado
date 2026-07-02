@@ -458,7 +458,10 @@ em {
 .enc-titulo {
   font-size: clamp(16px, 1.8vw, 21px);
   color: var(--ink);
-  display: inline;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  width: 100%;
 }
 .enc-titulo-centro { display: inline; }
 .enc-titulo-numero {
