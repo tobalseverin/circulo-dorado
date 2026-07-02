@@ -673,6 +673,9 @@ section:nth-child(5) { animation-delay: 0.5s; }
   padding: 5rem 0 6rem;
   border-top: .5px solid var(--line);
   overflow: hidden;
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .footer-yantra {
@@ -700,6 +703,9 @@ section:nth-child(5) { animation-delay: 0.5s; }
   z-index: 1;
   padding: 2.5rem 2rem;
   text-align: center;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .footer-quote {
