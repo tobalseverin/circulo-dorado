@@ -492,8 +492,9 @@ em {
 
 /* Precios */
 .precio-row {
-  display: flex; justify-content: space-between; align-items: baseline;
+  display: block;
   padding: 9px 0; border-bottom: .5px solid var(--line); font-size: clamp(17px, 2vw, 23px);
+  text-align: left;
 }
 .precio-row:last-child { border-bottom: none; }
 .precio-tipo { color: var(--ink-soft); }
