@@ -445,18 +445,21 @@ em {
   gap: 8px; padding: 8px 0; border-bottom: .5px solid var(--line);
   align-items: baseline;
 }
+.enc > div:last-child {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0.5em;
+}
 .enc:last-child { border-bottom: none; }
 .enc-n { font-size: clamp(11px, 1.4vw, 15px); color: var(--gold); font-weight: 500; white-space: nowrap; }
 .enc-fecha { font-size: clamp(14px, 1.8vw, 20px); color: var(--ink-mute); }
 .enc-titulo {
   font-size: clamp(16px, 1.8vw, 21px);
   color: var(--ink);
-  display: flex;
-  justify-content: space-between;
-  align-items: baseline;
-  gap: 8px;
+  display: inline;
 }
-.enc-titulo-centro { flex: 1; }
+.enc-titulo-centro { display: inline; }
 .enc-titulo-numero {
   display: inline-flex;
   align-items: center;
@@ -470,6 +473,7 @@ em {
   padding: 5px 14px;
   border-radius: 20px;
   white-space: nowrap;
+  margin-left: auto;
 }
 
 .badge-chakra {
