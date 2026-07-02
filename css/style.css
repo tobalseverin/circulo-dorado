@@ -333,7 +333,7 @@ p.lead {
 
 p {
   font-size: clamp(16px, 2.1vw, 23px);
-  line-height: 1.7;
+  line-height: 1.44;
   color: var(--ink-soft);
   margin-bottom: .8rem;
   max-width: 1000px;
