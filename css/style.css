@@ -311,6 +311,14 @@ section {
   border-bottom: .5px solid var(--line);
   scroll-margin-top: 2rem;
   max-width: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 1rem;
+}
+.sec-label-meta {
+  text-align: right;
+  white-space: nowrap;
 }
 
 p.lead em { color: inherit; }
