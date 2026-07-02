@@ -485,7 +485,7 @@ em {
 .enc.ck-5 .enc-titulo-numero { background: #5F808C; }
 .enc.ck-6 .enc-titulo-numero { background: #6A6386; }
 .enc.ck-7 .enc-titulo-numero { background: #82627E; }
-.enc-sub { font-size: clamp(14px, 1.7vw, 19px); color: var(--ink-mute); display: block; margin-top: 1px; }
+.enc-sub { font-size: clamp(14px, 1.7vw, 19px); color: var(--ink-mute); display: inline; margin-left: 0.5em; }
 .mes-sep {
   font-size: clamp(11px, 1.4vw, 15px); letter-spacing: .18em; text-transform: uppercase;
   color: var(--ink-mute); padding: 10px 0 3px; grid-column: 1/-1;
