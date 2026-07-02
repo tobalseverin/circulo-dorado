@@ -447,10 +447,9 @@ em {
 }
 .enc > div:last-child {
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   align-items: baseline;
   gap: 0.5em;
-  justify-content: space-between;
 }
 .enc:last-child { border-bottom: none; }
 .enc-n { font-size: clamp(11px, 1.4vw, 15px); color: var(--gold); font-weight: 500; white-space: nowrap; }
