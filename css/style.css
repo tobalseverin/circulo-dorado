@@ -699,6 +699,7 @@ section:nth-child(5) { animation-delay: 0.5s; }
   position: relative;
   z-index: 1;
   padding: 2.5rem 2rem;
+  text-align: center;
 }
 
 .footer-quote {
