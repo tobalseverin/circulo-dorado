@@ -418,9 +418,11 @@ em {
   display: flex;
   gap: 24px;
   align-items: flex-start;
-  padding: 20px 0;
+  padding: 48px 0;
   border-bottom: .5px solid var(--line);
 }
+.fac:first-of-type { padding-top: 20px; }
+.fac:last-child { padding-bottom: 20px; }
 .fac:last-child { border-bottom: none; }
 .fac-avatar {
   width: 160px;
