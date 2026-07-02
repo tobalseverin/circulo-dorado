@@ -449,7 +449,8 @@ em {
   display: flex;
   flex-wrap: nowrap;
   align-items: baseline;
-  gap: 0.5em;
+  gap: 1rem;
+  justify-content: space-between;
 }
 .enc:last-child { border-bottom: none; }
 .enc-n { font-size: clamp(11px, 1.4vw, 15px); color: var(--gold); font-weight: 500; white-space: nowrap; }
@@ -457,10 +458,7 @@ em {
 .enc-titulo {
   font-size: clamp(16px, 1.8vw, 21px);
   color: var(--ink);
-  display: flex;
-  justify-content: space-between;
-  align-items: baseline;
-  width: 100%;
+  display: inline;
 }
 .enc-titulo-centro { display: inline; }
 .enc-titulo-numero {
