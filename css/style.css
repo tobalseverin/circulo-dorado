@@ -530,6 +530,13 @@ em {
   margin-left: 8px;
   font-weight: 500;
 }
+.precio-agotado .precio-tipo,
+.precio-agotado .precio-val { color: var(--ink-mute); opacity: 0.65; }
+.precio-agotado .precio-tipo strong { color: inherit; }
+.precio-agotado .precio-tag {
+  background: var(--ink-mute);
+  text-decoration: none;
+}
 
 /* ── CTA BUTTON ── */
 .cta-button {
