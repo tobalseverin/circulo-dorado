@@ -300,6 +300,11 @@ section {
   scroll-margin-top: 120px;
 }
 
+#inscripcion {
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
 .sec-label {
   font-size: clamp(12px, 1.1vw, 15px);
   font-weight: 500;
