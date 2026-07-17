@@ -511,6 +511,10 @@ em {
   font-size: clamp(11px, 1.4vw, 15px); letter-spacing: .18em; text-transform: uppercase;
   color: var(--ink-mute); padding: 10px 0 3px; grid-column: 1/-1;
 }
+.mod-sep {
+  font-size: clamp(12px, 1.5vw, 16px); letter-spacing: .12em; text-transform: uppercase;
+  color: var(--gold); font-weight: 700; padding: 24px 0 2px; grid-column: 1/-1;
+}
 
 /* Precios */
 .precio-row {
