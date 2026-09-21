@@ -404,6 +404,7 @@ em {
   height: 20px;
   margin-right: 6px;
   opacity: 1;
+  filter: brightness(0) invert(1);
 }
 .centro-nombre {
   font-family: 'Cormorant Garamond', serif;
