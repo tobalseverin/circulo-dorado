@@ -463,6 +463,9 @@ em {
   margin-top: 0;
 }
 .fac-bio { font-size: clamp(16px, 1.8vw, 21px); color: var(--ink-soft); line-height: 1.48; margin: 0; }
+.fac-details { margin-top: 1rem; }
+.fac-summary { cursor: pointer; color: var(--gold); font-weight: 500; text-decoration: underline; }
+.fac-details[open] .fac-summary { text-decoration: none; }
 
 /* Programa */
 .enc {
