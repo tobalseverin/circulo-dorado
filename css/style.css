@@ -398,6 +398,7 @@ em {
   height: 41px;
   object-fit: contain;
   opacity: 0.8;
+  margin-right: 16px;
 }
 .centro-nombre {
   font-family: 'Cormorant Garamond', serif;
