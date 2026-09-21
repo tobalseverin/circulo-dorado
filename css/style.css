@@ -380,7 +380,7 @@ em {
 .etapa-nombre {
   font-family: 'Cormorant Garamond', serif;
   font-size: clamp(20px, 2.4vw, 28px);
-  font-weight: 700;
+  font-weight: 600;
   color: var(--gold);
 }
 .etapa-desc { font-size: clamp(16px, 2vw, 21px); color: var(--ink-soft); line-height: 1.7; }
@@ -401,7 +401,7 @@ em {
 }
 .centro-nombre {
   font-family: 'Cormorant Garamond', serif;
-  font-size: clamp(20px, 2.4vw, 28px); font-weight: 700; color: var(--gold); display: block; margin-bottom: 2px;
+  font-size: clamp(20px, 2.4vw, 28px); font-weight: 600; color: var(--gold); display: block; margin-bottom: 2px;
 }
 .centro-desc { font-size: clamp(16px, 1.8vw, 21px); color: var(--ink-soft); }
 .centro-sk {
@@ -450,7 +450,7 @@ em {
 .fac-content { flex: 1; }
 .fac-nombre {
   font-family: 'Cormorant Garamond', serif;
-  font-size: clamp(21px, 2.5vw, 30px); color: var(--gold); margin-bottom: .8rem;
+  font-size: clamp(21px, 2.5vw, 30px); font-weight: 600; color: var(--gold); margin-bottom: .8rem;
   margin-top: 0;
 }
 .fac-bio { font-size: clamp(16px, 1.8vw, 21px); color: var(--ink-soft); line-height: 1.48; margin: 0; }
