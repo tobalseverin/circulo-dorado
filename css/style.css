@@ -527,6 +527,9 @@ em {
 .precio-row:last-child { border-bottom: none; }
 .precio-tipo { color: var(--ink-soft); flex: 1; }
 .precio-val { color: var(--ink); text-align: right; white-space: nowrap; margin-left: auto; }
+.precio-desactivado .precio-tipo,
+.precio-desactivado .precio-val { color: var(--ink-mute); opacity: 0.65; }
+.precio-desactivado .precio-tag { background: var(--ink-mute); }
 .precio-tag {
   font-size: clamp(9px, 0.9vw, 11px);
   text-transform: uppercase;
