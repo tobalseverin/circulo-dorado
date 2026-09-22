@@ -899,11 +899,14 @@ section:nth-child(5) { animation-delay: 0.5s; }
   }
 }
 
-@media (max-width: 520px) {
+@media (max-width: 768px) {
   .cover-nav a { font-size: 9.5px; padding: 13px 10px; letter-spacing: .09em; }
   .etapa { grid-template-columns: 112px 1fr; gap: 16px; }
-  .centro { grid-template-columns: 38px 1fr; }
-  .centro-sk { grid-column: 2; justify-self: start; margin-top: 8px; }
+  .centro { grid-template-columns: 1fr; gap: 12px; align-items: start; min-width: 0; }
+  .centro > div:first-child { width: 100%; min-width: 0; }
+  .centro-nombre { display: block; word-wrap: break-word; }
+  .centro-desc { display: block; word-wrap: break-word; }
+  .centro-sk { justify-self: end; margin-top: 0; flex-shrink: 0; }
   .chakra-icon { width: 32px; height: 32px; }
   .enc { grid-template-columns: 84px 1fr; }
 
