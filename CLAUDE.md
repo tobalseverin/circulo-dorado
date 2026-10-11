@@ -71,10 +71,17 @@
 6. Ajna · Tercer ojo — "Ver desde adentro"
 7. Sahasrara · Corona — "Lo que somos más allá de lo que hacemos"
 
-**Precios — 3 niveles · Máx. 16 participantes:**
-- Early bird: $8.000 · 1 pago único · 10 primeros · antes de julio · transferencia bancaria
-- Precio estándar: $9.000 · máx. 2 pagos ($4.500 × 2) · desde julio hasta el inicio · transferencia bancaria
-- En cuotas: $9.900 · hasta 12 cuotas sin interés · Mercado Pago · neto recibido ~$9.000
+**Estructura en 2 módulos:**
+
+Módulo 1 · Iniciación · 8 encuentros · 29 Jul →16 Sep
+Módulo 2 · Profundización · 7 encuentros · 23 Sep →4 Nov
+
+**Precios:**
+- Módulo 1: $4.800
+- Módulo 2: $4.800
+- Ambos módulos al contado: $9.000
+- Ambos módulos en cuotas MP: $9.900 (hasta 12 cuotas sin interés)
+- Early bird (ya pagado): $8.000 por ambos módulos ✓
 
 **Comisiones MP (verificadas):**
 - Cobro base: 4,99% + IVA = ~$603 sobre $9.900
